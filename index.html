@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Proyecto Curso de desarrollo web online</title>
         <link rel="icon" type="image/png" href="/images/favicon.png">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <header>
@@ -15,13 +16,13 @@
                 <nav>
                     <ol>
                         <li>
-                            <a href="">Portafolio</a>
+                            <a href="#portfolio">Portafolio</a>
                         </li>
                         <li>
-                            <a href="">Experiencia</a>
+                            <a href="#experience">Experiencia</a>
                         </li>
                         <li>
-                            <a href="">Trabajemos juntos</a>
+                            <a href="#contact">Trabajemos juntos</a>
                         </li>
                     </ol>
                 </nav>
@@ -29,9 +30,9 @@
         </header>
         <section>
             <h1>Hola soy <strong>Sergio Ruiz</strong>, <br> Desarrollador <strong>JavaScript</strong> con <br> pasión por el <strong>aprendizaje</strong>.</h1>
-            <img src="" alt="">Foto personal
+            <img src="images/hero.jpg" alt="Foto personal" width="500">
         </section>
-        <section>
+        <section id="portfolio">
             <h2>Portafolio (Proyectos destacados)</h2>
             <article>
                 <h3>Platzi Vídeo</h3>
@@ -39,20 +40,27 @@
                 <p><small><strong>Fecha:</strong> 01/07/2020</small></p>
                 <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
                 <p>Platzi Vídeo fue el resultado de 3 meses de trabajo para crear la mejor app destinada a enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación. Este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.</p>
+                <img src="/images/platzi-video-react-native.png" alt="Proyecto del curso de React" width="500">
             </article>
         </section>
-        <section>
+        <section id="experience">
             <h2>Mas sobre mi experiencia</h2>
             <article>
                 <figure>
-                    <img src="" alt="">
+                    <img src="images/platzi-conf.jpg" alt="Conferencia" width="500">
                 </figure>
                 <h3>Platzi Conf Mexico 2020</h3>
-                <p>El evento mas grande sobre gente que quiere aprender más de Internet. En este evento se comparte como tener una vida de constante aprendizaje.</p>
-                <a href="">Ver plática</a>
+                <p>El evento mas grande sobre gente que quiere aprender más de Internet. En este evento te comparto como tener una vida de constante aprendizaje.</p>
+                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver plática</a>
             </article>
         </section>
-        <section>Sección contactos</section>
+        <section id="contact">
+            <form action="">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" name="" id="" placeholder="Déjame tu email">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
         <footer>Footer</footer>
     </body>
 </html>
