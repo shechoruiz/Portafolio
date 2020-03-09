@@ -1,0 +1,58 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    background-color: #1D252C;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+ h1{
+     line-height: 1.5;
+     font-size: 40px;
+     font-weight: normal;
+     letter-spacing: -.2px;
+     color: white;
+ }
+
+ h1 strong{
+     color: #026FFF;
+ }
+
+ .hero{
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1D252C;
+ }
+
+ .project{
+     border: 1px solid gray;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     padding: 50px;
+ }
+
+ .project-details{
+     width: 500px;
+ }
+
+ .project-imageContainer{
+     width: 500px;
+ }
